@@ -38,9 +38,8 @@ def batteriesCalculator():
     hours = response * 1.51659999913
     batteries = hours / 9
     print (batteries)
-    a = batteries
-    print ("You will need to bring",int (math.ceil(a)),"batteries to last",response,"orbits.")
-    return int(math.ceil(a))
+    print ("You will need to bring",int (math.ceil(batteries)),"batteries to last",response,"orbits.")
+    return int(math.ceil(batteries))
 
 
 
